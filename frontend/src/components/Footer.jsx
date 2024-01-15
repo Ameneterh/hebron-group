@@ -1,5 +1,6 @@
 import React from "react";
-import { FaInstagram, FaYoutube } from "react-icons/fa";
+import { BsWhatsapp } from "react-icons/bs";
+import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
@@ -7,7 +8,7 @@ export default function Footer() {
   return (
     <div className="flex flex-col w-full bg-slate-950 p-2 sm:p-10 text-white botder-t border-white">
       {/* top */}
-      <div className="w-full flex flex-col sm:flex-row justify-between">
+      <div className="w-full flex flex-col sm:flex-row justify-between items-start">
         <Link to="/" className="hidden sm:flex gap-2 items-center">
           <img
             src="/school-badge.png"
@@ -31,7 +32,7 @@ export default function Footer() {
             <Link to="tel:2348036532472" className="hover:underline">
               +2348036532472
             </Link>
-            <Link to="2348034402072" className="hover:underline">
+            <Link to="tel:2348034402072" className="hover:underline">
               +2348034402072
             </Link>
           </p>
@@ -88,8 +89,17 @@ export default function Footer() {
 
       {/* bottom */}
       <div className="w-full pt-4 border-t text-yellow-200 border-yellow-200 mt-8">
-        <p className="w-full text-center">
+        <p className="w-full text-center flex items-center justify-center gap-2">
           &copy; <span>{new Date().getFullYear()}</span> Amene Ter'Hemen
+          <Link to="tel:+2348154230654">
+            <FiPhoneCall />
+          </Link>
+          <Link to="https://wa.me/2348154230654">
+            <BsWhatsapp />
+          </Link>
+          <Link to="https://www.twitter.com/ameneterh">
+            <FaTwitter />
+          </Link>
         </p>
       </div>
     </div>
