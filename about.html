@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="./Styles/about.css">
+
+  <title>About Hebron Group of Schools</title>
+</head>
+
+<body>
+  <header>
+    <div id="header">
+      <div id="header-img"></div>
+      <div id="header-name">
+        <h1 id="school-name">Hebron Group of Schools</h1>
+        <p id="school-motto">Born to Reign</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="">Resources +
+              <ul>
+                <li><a href="videoresources.html">Videos</a></li>
+                <li><a href="documentresources.html">Documents</a></li>
+              </ul>
+            </a>
+          </li>
+          <li id="active"><a href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <!-- dropdown for mobile phones -->
+      <button type="button" id="drop-down" onclick="getDropMenu()">
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <div id="drop-down-menu">
+          <ul>
+            <a href="index.html">
+              <li>Home</li>
+            </a>
+            <hr>
+            <a href="about.html">
+              <li>About us</li>
+            </a>
+            <hr>
+            <a href="#" id="inactive">
+              <li>Resources +</li>
+            </a>
+            <a href="videoresources.html">
+              <li class="shift-right">Videos</li>
+            </a>
+            <a href="documentresources.html">
+              <li class="shift-right">Documents</li>
+            </a>
+            <hr>
+            <a href="contact.html">
+              <li>Contact us</li>
+            </a>
+          </ul>
+        </div>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="school-anthem">
+      <h1>School Anthem</h1>
+      <p>
+        Hebron Group of Schools<br>
+        Citadel of learning<br>
+        A place of birth of king and queen<br>
+        We learn to reign, to rule.<br>
+        <br>
+        God bless Hebron Schools<br>
+        Where king and queen are groomed<br>
+        We learn to attain<br>
+        Our God's given throne.<br>
+        Hebron, forever reign.<br>
+      </p>
+    </section>
+
+    <section id="proprietor-section">
+      <figure id="proprietor-picture">
+        <img id="proprietor" src="./Images/proprietor.jpg" alt="proprietor's name">
+        <figcaption>School Building (example)</figcaption>
+      </figure>
+      <div id="proprietor-message">
+        <h1>Brief History of Hebron Group of Schools</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione ipsam sit natus numquam iure, minima dolor
+          minus vero nostrum fuga eius incidunt, veritatis quod quidem et doloribus, vitae magnam amet?</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <hr />
+    <div id="topFooter">
+      <div id="topLeft">
+        <p id="logo">Logo</p>
+      </div>
+      <div id="topRight">
+        <div class="rightTop">
+          <img src="./Images/location.png" alt="location-icon">
+          <p>Plot 6, Road 1, Logudu - Benbo, Behind Apata Grammar School, Apata, Ibadan</p>
+        </div>
+        <div class="rightMiddle">
+          <div id="middleLeft">
+            <img src="./Images/call-icon.png" alt="call-icon">
+            <p>+2348036532472</p>
+          </div>
+          <div id="middleRight">
+            <img src="./Images/call-icon.png" alt="call-icon">
+            <p>+2348034402072</p>
+          </div>
+        </div>
+        <div class="rightBottom">
+          <p>Social Media</p>
+          <div id="socialMedia">
+            <a href="https://www.youtube.com/channel/UClBBYrD_26TMklgDVxnETNA/"><img src="./Images/Youtube.png"
+                alt="Youtube"> </a>
+            <a href="https://www.instagram/galaxyelearning"><img src="./Images/instagram black.1.png"
+                alt="Instagram"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="lowerFooter">
+      <div id="lowerLeft">
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact us</a>
+      </div>
+      <div id="lowerRight">
+        <p>Copyright &copy; <span id="currentYear"></span> Minimumlivingcost. All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./Scripts/index.js"></script>
+</body>
+
+</html>

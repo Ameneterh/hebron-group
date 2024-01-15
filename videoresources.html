@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="./Styles/videoresources.css">
+
+  <title>Video Resources | Hebron Group of Schools</title>
+</head>
+
+<body>
+  <header>
+    <div id="header">
+      <div id="header-img"></div>
+      <div id="header-name">
+        <h1 id="school-name">Hebron Group of Schools</h1>
+        <p id="school-motto">Born to Reign<span id="year"></span></p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li id="active"><a href="">Resources +
+              <ul>
+                <li><a href="videoresources.html">Videos</a></li>
+                <li><a href="documentresources.html">Documents</a></li>
+              </ul>
+            </a>
+          </li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <!-- dropdown for mobile phones -->
+      <button type="button" id="drop-down" onclick="getDropMenu()">
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <div id="drop-down-menu">
+          <ul>
+            <a href="index.html">
+              <li>Home</li>
+            </a>
+            <hr>
+            <a href="about.html">
+              <li>About us</li>
+            </a>
+            <hr>
+            <a href="#" id="inactive">
+              <li>Resources +</li>
+            </a>
+            <a href="videoresources.html">
+              <li class="shift-right">Videos</li>
+            </a>
+            <a href="documentresources.html">
+              <li class="shift-right">Documents</li>
+            </a>
+            <hr>
+            <a href="contact.html">
+              <li>Contact us</li>
+            </a>
+          </ul>
+        </div>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <div class="videos">
+      <div class="vid-container">
+
+        <iframe class="show-video" id="video-1" width="560" height="315" src="https://www.youtube.com/embed/ZyRziVjB2fc"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <div class="vid-author-title">
+          <div class="author-img"></div>
+          <p>How to determine rate of a reaction in the laboratory <b>by Jolayemi</b></p>
+        </div>
+      </div>
+
+      <div class="vid-container">
+        <iframe class="show-video" id="video-1" width="560" height="315" src="https://www.youtube.com/embed/nOcMlJq1_qc"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        <div class="vid-author-title">
+          <div class="author-img"></div>
+          <p>Oxidation and reduction in simple tabular form <b>by Jolayemi</b></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer></footer>
+
+  <script src="./Scripts/index.js"></script>
+</body>
+
+</html>
