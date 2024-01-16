@@ -9,6 +9,8 @@ import Contact from "./pages/Contact";
 import Resources from "./pages/Resources";
 import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
+import PrivateRoute from "./components/PrivateRoute";
+import Dashboard from "./pages/Dashboard";
 
 // import './App.css'
 
@@ -26,6 +28,9 @@ function App() {
         <Route path="/resources" element={<Resources />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
+        <Route element={<PrivateRoute />}>
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Route>
       </Routes>
       <Footer />
     </BrowserRouter>
