@@ -5,7 +5,7 @@ export default function About() {
     <div className="min-h-screen p-3 sm:p-20 flex flex-col sm:flex-row gap-4 items-center sm:items-start">
       <div className="flex-1">
         <h1 className="text-2xl font-bold">School Anthem</h1>
-        <pre className="text-lg">
+        <pre className=" text-sm sm:text-lg">
           <p className="mb-5">
             Hebron Group of Schools <br />
             Citadel of learning <br />

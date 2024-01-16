@@ -62,14 +62,14 @@ export default function Header() {
         </p>
       </div>
       <Navbar fluid className="border-b-2 shadow-lg bg-green-300" color="white">
-        <Link to="/" className="flex gap-2 items-center">
+        <Link to="/" className="flex gap-1 sm:gap-2 items-center">
           <img
             src="/school-badge.png"
             alt="logo"
-            className="h-20 w-20 p-2 rounded-full"
+            className="w-14 h-14 sm:h-20 sm:w-20 p-2 rounded-full"
           />
           <div className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold text-white">
-            <span className="text-4xl flex flex-row gap-2 px-2 bg-gradient-to-r from-green-500 via-green-950 to-blue-950 rounded-md border-b-2 border-b-white">
+            <span className="text-xl sm:text-4xl flex flex-row gap-2 px-2 bg-gradient-to-r from-green-500 via-green-950 to-blue-950 rounded-md border-b-2 border-b-white">
               Hebron
             </span>
             <span className="text-blue-950">group of schools</span>
