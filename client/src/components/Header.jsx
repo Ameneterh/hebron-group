@@ -50,16 +50,14 @@ export default function Header() {
 
   return (
     <>
-      <div className="flex justify-center items-center w-full bg-slate-950 p-1">
-        <p className="text-white text-lg truncate">
-          <Typewriter
-            options={{
-              strings: ["Born to Reign"],
-              autoStart: true,
-              loop: true,
-            }}
-          />
-        </p>
+      <div className="flex justify-center items-center w-full bg-slate-950 p-1 text-white">
+        <Typewriter
+          options={{
+            strings: ["Born to Reign"],
+            autoStart: true,
+            loop: true,
+          }}
+        />
       </div>
       <Navbar fluid className="border-b-2 shadow-lg bg-green-300" color="white">
         <Link to="/" className="flex gap-1 sm:gap-2 items-center">
