@@ -7,6 +7,8 @@ import About from "./pages/About";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import Resources from "./pages/Resources";
+import SignUp from "./pages/SignUp";
+import Login from "./pages/Login";
 
 // import './App.css'
 
@@ -22,6 +24,8 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resources" element={<Resources />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </BrowserRouter>
