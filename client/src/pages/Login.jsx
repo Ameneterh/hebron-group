@@ -75,7 +75,14 @@ export default function Login() {
           </div>
 
           <Button className="uppercase mt-8" type="submit">
-            log in
+            {loading ? (
+              <>
+                <Spinner color="info" size="md" />
+                <span className="pl-3">Loading ...</span>
+              </>
+            ) : (
+              "login"
+            )}
           </Button>
         </form>
         <p className="mt-3">
@@ -87,6 +94,7 @@ export default function Login() {
             Sign up
           </Link>
         </p>
+        {error && <p className="text-red-500 mt-5">{error}</p>}
       </div>
     </div>
   );
