@@ -19,7 +19,7 @@ export default function Footer() {
             <span className="text-4xl flex flex-row gap-2 px-2 bg-gradient-to-r from-green-500 via-green-950 to-blue-950 rounded-md border-b-2 border-b-white">
               Hebron
             </span>
-            <span className="text-blue-100 font-normal">group of schools</span>
+            <span className="text-blue-100 font-normal">Group of Schools</span>
           </div>
         </Link>
         <div className="flex flex-col items-center gap-2 text-slate-300">

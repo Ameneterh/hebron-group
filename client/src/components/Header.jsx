@@ -72,7 +72,7 @@ export default function Header() {
             <span className="text-xl sm:text-4xl flex flex-row gap-2 px-2 bg-gradient-to-r from-green-500 via-green-950 to-blue-950 rounded-md border-b-2 border-b-white">
               Hebron
             </span>
-            <span className="text-blue-950">group of schools</span>
+            <span className="text-blue-950">Group of Schools</span>
           </div>
         </Link>
         <form onSubmit={handleSubmit}>
